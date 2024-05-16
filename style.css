@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #b6b6b6;
+}
+
+#instruction {
+    text-align: center;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.input-section {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.input-section input {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 14.5rem;
+}
+
+.input-section button {
+    padding: 5px 10px;
+    background-color: #005fc5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-section button:hover {
+    color: #005fc5;
+    background-color: #f9f9f9;
+    transition: 0.35s ease-in-out;
+}
+
+.output {
+    margin: 20px;
+    padding: 20px;
+    color: #000;
+    background-color: #d7eaff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #001;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+#noOfApp {
+    padding: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #f9f9f9;
+    border-radius: 5px;
+}
+
+#avgAgeOfApp {
+    padding: 5px;
+    background-color: #9f9f9f;
+    border: 1px solid #9f9f9f;
+    border-radius: 5px;
+}
+
+#quaCand {
+    padding: 5px;
+    background-color: #30ff4c;
+    border: 1px solid #30ff4c;
+    border-radius: 5px;
+}
+
+#quaCand li {
+    list-style: none;
+}
+
+#disquaCand {
+    padding: 5px;
+    background-color: #ff6969;
+    border: 1px solid #ff6969;
+    border-radius: 5px;
+}
