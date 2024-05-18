@@ -2,20 +2,20 @@ let candidates = []; //An empty array to store the names and ages of candidates
 
 
 //an arrow function to add candidate's names and age when it's entered into the input box
-const addCandidate = () => {
+const addCandidate = () => { // Arrow function to add a candidate
     const nameInput = document.getElementById("nameInput");
     const ageInput = document.getElementById("ageInput");
     const name = nameInput.value;
-    const age = parseInt(ageInput.value);
+    const age = parseInt(ageInput.value); //To convert a string to an integer
 
-    //condition that must be met before the name and age entered are added to the array
-    if (name && age) { 
+    
+    if (name && age) { //condition that must be met before the name and age entered are added to the array
         candidates.push({ name, age });
         nameInput.value = ""; //after the objects have been added to the candidates array, the value changes into an empty input box to accept new candidates' details
         ageInput.value = "";
         displayCandidates(); // to call displayCandidates function to update the webpage
     }
-};
+}; 
 
 //arrow function to display the candidates
 const displayCandidates = () => {
@@ -38,5 +38,6 @@ const displayCandidates = () => {
     `;
 
     output.innerHTML = outputHTML; // to update the display
-};
 
+    
+};

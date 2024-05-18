@@ -67,14 +67,14 @@ h1 {
 
 #avgAgeOfApp {
     padding: 5px;
-    background-color: #9f9f9f;
+    background-color: #f9f9f9;
     border: 1px solid #9f9f9f;
     border-radius: 5px;
 }
 
 #quaCand {
     padding: 5px;
-    background-color: #30ff4c;
+    background-color: #f9f9f9;
     border: 1px solid #30ff4c;
     border-radius: 5px;
 }
@@ -85,7 +85,7 @@ h1 {
 
 #disquaCand {
     padding: 5px;
-    background-color: #ff6969;
+    background-color: #f9f9f9;
     border: 1px solid #ff6969;
     border-radius: 5px;
 }
